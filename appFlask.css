@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+.upload{
+    border-color: aliceblue;
+    background-color: aqua;
+}
+.submit{
+    background-color: red;
+}

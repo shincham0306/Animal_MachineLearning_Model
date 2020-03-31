@@ -1,0 +1,20 @@
+<!doctype html>
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <title>画像判定システム</title>
+    <link rel=stylesheet href=../bootstrap/bootstrap.css>
+    <link rel=stylesheet href=appFlask.css></head>
+    <body>
+    <h1>画像判定システム</h1>
+    <p>budgerigar(インコ)、cat(猫)、dog(犬)、hamster(ハムスター)、rabbit(ウサギ)の五種類の動物を学習させています。</p>
+    <br><p>画像ファイルを入れることで％表示で何の動物の写真か当てられます。</p>
+    <form method = post enctype = multipart/form-data>
+    <label for=file>画像ファイルを選択</label><br>
+    <input type=file name=file class=btn btn-special style=background-color:aqua;>
+    <input type=submit value=判定 class=btn btn-special style=background-color:red;>
+    </form>
+    <script src=../bootstrap/jquery-3.4.1.js></script>
+    <script src=../bootstrap/bootstrap.js></script>
+    </body>
+    </html>
